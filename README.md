@@ -39,5 +39,5 @@ The C transpiler class, which is combined with the StandardBF package.
 
 # Potential TODO's
 In the future, I may add a number of new utils to this repository. I will definetly be updating the code in all of the classes, as they are still missing some painfully obvious error handling statements (also some of the code is bad, and I'll try to fix that). The most likely *large* additions to this project will consist of BF++ transpiler support and a basic Brainf**k(++) debugger, although those things really just depend on how much time and motivation I have.
-### An unimportant note
+### An Unimportant Note
 This project started as something to do while I was bored in computer science class... I spent way too much time on it.
