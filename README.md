@@ -32,8 +32,23 @@ Brainf**k++ is an extension of BF originally created by Jacob I. Torrey. However
 # List of included utilities
 ### StandardBF
 The pure Brainf**k interpreter. This also includes the C transpiler, because, at the moment, that only supports raw BF.
+
+#### Usage
+```
+Usage: java -jar StandardBF.jar [-h] [-C] <File>
+Arguments:
+  -h  : List this information  
+  -C : Compile to C
+```
 ### BrainFuckPP
 The Brainf**k++ interpreter.
+
+#### Usage
+```
+Usage: java -jar BrainFuckPP.jar [-h] <File> 
+Arguments:
+  -h  : List this information
+```
 ### BFtoC
 The C transpiler class, which is combined with the StandardBF package.
 
