@@ -1,5 +1,5 @@
 # BFUtils
-This is a set of utilities based around the Brainf**k esolang. Currently, it contains an interpreter for both BF and BF++, and a transpiler that converts BF to C code.
+Inside of this package, there are a set of potentially useful utilities based around the Brainf**k esolang. Currently, it contains an interpreter for both BF and BF++, and a transpiler that converts BF code to C.
 
 # Brainf**k
 Brainf**k (BF) is an incredibly popular esoteric programming language created in 1993 by Urban Müller. The language consists of what some might refer to as "pure" memory management, as all one does while programming in it is increment or decrement values, along with a single data pointer. It contains a grand total of 8 instructions, which only allow for basic looping, user input, and output (however, people have been able to do some pretty impressive things with it, check out https://esolangs.org/wiki/Brainfuck_algorithms). 
@@ -39,3 +39,5 @@ The C transpiler class, which is combined with the StandardBF package.
 
 # Potential TODO's
 In the future, I may add a number of new utils to this repository. I will definetly be updating the code in all of the classes, as they are still missing some painfully obvious error handling statements (also some of the code is bad, and I'll try to fix that). The most likely *large* additions to this project will consist of BF++ transpiler support and a basic Brainf**k(++) debugger, although those things really just depend on how much time and motivation I have.
+### An unimportant note
+This project started as something to do while I was bored in computer science class... I spent way too much time on it.
