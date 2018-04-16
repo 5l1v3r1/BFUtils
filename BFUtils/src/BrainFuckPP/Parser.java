@@ -14,7 +14,7 @@ class Parser {
     private FileInputStream reader;
 
     Parser(File f) throws FileNotFoundException {
-        this.ins = new ArrayList<Character>();
+        this.ins = new ArrayList<>();
         this.reader = new FileInputStream(f);
     }
 
